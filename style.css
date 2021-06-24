@@ -2,3 +2,32 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+/* nav */
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-links{
+    display: flex;
+    display: flex;
+    margin: 20px;
+    text-decoration: none;
+}
+
+/* header */
