@@ -6,28 +6,31 @@ body{
 /* nav */
 
 nav{
+    background-color: #ffff;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 1px 0px 28px 3px rgba(0, 0, 0, 0.116);
 }
 
-div{
+.nav-container{
     display: flex;
     width: 50%;
     justify-content: flex-end;
 }
 
-ul{
+.nav-lista{
     display: flex;
     list-style: none;
 
 }
 
 .nav-links{
+    color: #2e2e31;
     display: flex;
-    display: flex;
-    margin: 20px;
+    font-weight: 400;
     text-decoration: none;
+    padding: 20px;
 }
 
 /* header */
