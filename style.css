@@ -6,23 +6,23 @@ body{
 /* nav */
 
 nav{
+    display: flex;
+    justify-content: center;
     background-color: #ffff;
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
     box-shadow: 1px 0px 28px 3px rgba(0, 0, 0, 0.116);
 }
 
 .nav-container{
-    display: flex;
     width: 50%;
+    display: flex;
     justify-content: flex-end;
 }
 
 .nav-lista{
     display: flex;
+    font-size: 18px;
     list-style: none;
-
 }
 
 .nav-links{
@@ -30,7 +30,26 @@ nav{
     display: flex;
     font-weight: 400;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px 20px;
+}
+
+ .nav-links:hover{
+    color: #005C7A;
+}
+
+/* .nav-links:active{
+    border: 1px solid #005C7A;
+    border-radius: 30px;
+}  */
+
+.nav-contacto{
+    color: #ffff;
+    background-color: #005C7A;
+    border-radius: 30px;
+}
+
+.nav-contacto:hover{
+    color: #ffff;
 }
 
 /* header */
