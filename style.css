@@ -61,6 +61,12 @@ nav{
     color: #ffff;
 }
 
+.nav-contact:active{
+    color: #ffff;
+    background-color: #024157;
+    box-shadow: 0px 0px 8px 0px #005C7A;
+}
+
 /* header */
 
 header{
@@ -98,9 +104,19 @@ div > p{
     padding: 10px 20px;
 }
 
+.header-button:hover{
+    color: #ffff;
+}
+
+.header-button:active{
+    color: #ffff;
+    background-color: #024157;
+    box-shadow: 0px 0px 8px 0px #005C7A;
+}
 
 .container-right-img{
     width: 40%;
 }
 
 /* conocimientos */
+
