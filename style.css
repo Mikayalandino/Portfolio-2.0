@@ -69,14 +69,11 @@ nav{
 
 /* header */
 
-header{
-    margin: 300px;
-}
-
 .header-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 220px;
 }
 
 div > h2{
@@ -158,6 +155,39 @@ section{
     border-radius: 10px;
 }
 
+.skills-cards-box:hover{
+    color: #673ab7;
+    border: 1px solid #995CEF;
+}
+
 .fab{
     font-size: 50px;
+}
+
+.fa-html5{
+    color: #E54D26;
+}
+
+.fa-css3-alt{
+    color: #3D8FC6;
+}
+
+.fa-sass{
+    color: #CC6699;
+}
+
+.fa-js{
+    color: #F0DB4F;
+}
+
+.fa-react{
+    color: #7FE1FB;
+}
+
+.fa-git-alt{
+    color: #F34F29;
+}
+
+.skills-txt{
+    font-weight: 900;
 }
