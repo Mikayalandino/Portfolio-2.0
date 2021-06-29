@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 /* nav */
@@ -11,7 +12,7 @@ nav{
     background-color: #ffff;
     width: 100%;
     box-shadow: 1px 0px 28px 3px rgba(0, 0, 0, 0.116);
-/*     box-sizing: border-box; */
+    box-sizing: border-box; /* arreglar, no funciona ! */
     position: fixed;
     top: 0;
 }
@@ -61,3 +62,45 @@ nav{
 }
 
 /* header */
+
+header{
+    margin-top: 100px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div > h2{
+    color: #2E2E31;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+div > h1{
+    color: #005C7A;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+div > p{
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.header-button{
+    color: #ffff;
+    background-color: #005C7A;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+
+.container-right-img{
+    width: 40%;
+}
+
+/* conocimientos */
