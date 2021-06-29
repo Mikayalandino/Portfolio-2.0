@@ -41,25 +41,32 @@ nav{
 
 .nav-links:active{
     box-sizing: border-box;
-    border: 1px solid #005C7A;
+    box-shadow: 0px 0px 8px 0px #005C7A;
     border-radius: 30px;
 } 
+
+.nav-links:focus{
+    box-shadow: 0px 0px 8px 0px #005C7A;
+    border-radius: 30px;
+    outline: none;
+}
 
 .nav-proyects{
     margin-right: 15px;
 }
 
-.nav-contact{
+.nav-button{
     color: #ffff;
     background-color: #005C7A;
     border-radius: 30px;
 }
 
-.nav-contact:hover{
+.nav-button:hover{
     color: #ffff;
+    background-color: #005b7ae0;
 }
 
-.nav-contact:active{
+.nav-button:active{
     color: #ffff;
     background-color: #024157;
     box-shadow: 0px 0px 8px 0px #005C7A;
@@ -102,16 +109,23 @@ div > p{
     text-decoration: none;
     border-radius: 30px;
     padding: 10px 20px;
+    outline: none;
 }
 
 .header-button:hover{
     color: #ffff;
+    background-color: #005b7ae0;
 }
 
 .header-button:active{
     color: #ffff;
     background-color: #024157;
     box-shadow: 0px 0px 8px 0px #005C7A;
+}
+
+.header-button:focus{
+    box-shadow: 0px 0px 8px 0px #005C7A;
+    border-radius: 30px;
 }
 
 .container-right-img{
@@ -272,6 +286,7 @@ blockquote{
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
     margin: 20px;
+    outline: none;
 }
 
 .proyects-cards:hover{
@@ -280,6 +295,10 @@ blockquote{
 
 .proyects-cards:active{
     box-shadow: 0px 0px 8px 0px #005b7a88;
+}
+
+.proyects-cards:focus{
+    box-shadow: 0px 0px 8px 0px #005b7a;
 }
 
 .proyects-img{
@@ -309,6 +328,8 @@ blockquote{
     padding: 50px;
 }
 
+                                    /* contact left */
+
 .contact-left{
     display: flex;
     flex-direction: column;
@@ -318,6 +339,7 @@ blockquote{
 .contact-link{
     text-decoration: none;
     padding: 5px;
+    outline: none;
 }
 
 .contact-link:active{
@@ -325,6 +347,10 @@ blockquote{
     box-shadow: 0px 0px 8px 0px #005b7a88;
 }
 
+.contact-link:focus{
+    box-shadow: 0px 0px 8px 0px #005b7a;
+    border-radius: 30px;
+}
 
 .icon:hover{
     color: #ffff;
@@ -346,7 +372,54 @@ blockquote{
     color: #005C7A;
 }
 
-/* right */
+                                    /* contact right */
+
 .contact-na{
     display: flex;
+}
+
+.contact-box{
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.contact-box:active{
+    outline: none;
+    box-shadow: 0px 0px 8px 0px #005b7a88;
+}
+
+.contact-box:focus{
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 0px #005b7a;
+}
+
+.name{
+    margin-right: 10px;
+}
+
+.contact-button{
+    color: #ffff;
+    background-color: #005C7A;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+}
+
+.contact-button:hover{
+    background-color: #005b7ae0;
+}
+
+.contact-button:active{
+    color: #ffff;
+    background-color: #024157;
+    box-shadow: 0px 0px 8px 0px #005C7A;
+}
+
+.contact-button:focus{
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 0px #005b7a;
 }
