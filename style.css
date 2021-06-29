@@ -295,3 +295,35 @@ blockquote{
 
 /* contacto */
 
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link{
+    text-decoration: none;
+}
+
+
+
+.fab{
+    font-size: 20px;
+}
+
+/* right */
+.contact-na{
+ display: flex;
+}
