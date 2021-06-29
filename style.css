@@ -131,8 +131,12 @@ section{
 
 .skills-title{
     color: #000;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
+}
+
+.skills-comment{
+    font-size: 20px;
 }
 
 .skills-cards{
@@ -191,3 +195,5 @@ section{
 .skills-txt{
     font-weight: 900;
 }
+
+/* quote */
