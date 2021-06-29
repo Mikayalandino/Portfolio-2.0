@@ -275,11 +275,11 @@ blockquote{
 }
 
 .proyects-cards:hover{
-    background-color: #005C7A;
+    background-color: #005b7ac2;
 }
 
 .proyects-cards:active{
-    box-shadow: 0px 0px 8px 0px #005C7A;
+    box-shadow: 0px 0px 8px 0px #005b7a88;
 }
 
 .proyects-img{
@@ -292,4 +292,6 @@ blockquote{
     color: #000;
     font-size: 20px;
 }
+
+/* contacto */
 
