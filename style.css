@@ -164,8 +164,8 @@ section{
 }
 
 .skills-cards-box:hover{
-    color: #673ab7;
-    border: 1px solid #995CEF;
+    color: #005C7A;
+    border: 1px solid #005C7A;
 }
 
 .fab{
@@ -240,7 +240,7 @@ blockquote{
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 1100px;
+    max-width: 1180px;
 }
 
 .proyects-title{
@@ -261,16 +261,30 @@ blockquote{
 }
 
 .proyects-cards{
-    height: 250px;
-    width: 250px;
+    height: 370px;
+    width: 350px;
     text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
     margin: 20px;
 }
 
+.proyects-cards:hover{
+    background-color: #005C7A;
+}
+
+.proyects-cards:active{
+    box-shadow: 0px 0px 8px 0px #005C7A;
+}
+
 .proyects-img{
     width: 80%;
-    border-radius: 10px;
     padding: 20px;
+    border-radius: 30px;
 }
+
+.proyects-txt-card{
+    color: #000;
+    font-size: 20px;
+}
+
