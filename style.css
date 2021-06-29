@@ -18,9 +18,7 @@ nav{
 }
 
 .nav-container{
-    width: 50%;
     display: flex;
-    justify-content: flex-end;
 }
 
 .nav-list{
@@ -69,6 +67,11 @@ nav{
 
 /* header */
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
 .header-container{
     display: flex;
     align-items: center;
@@ -112,7 +115,8 @@ div > p{
 }
 
 .container-right-img{
-    width: 40%;
+    height: 400px;
+    width: 600px;
 }
 
 /* conocimientos */
