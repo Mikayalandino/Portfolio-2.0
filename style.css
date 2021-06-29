@@ -197,3 +197,26 @@ section{
 }
 
 /* quote */
+
+.quote{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #005C7A;
+}
+
+.fa-quote-right {
+    color: #ffff;
+    font-size: 80px;
+}
+
+blockquote{
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.quote-txt{
+    color: #ffff;
+    font-size: 30px;
+}
