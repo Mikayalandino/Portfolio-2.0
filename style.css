@@ -11,6 +11,9 @@ nav{
     background-color: #ffff;
     width: 100%;
     box-shadow: 1px 0px 28px 3px rgba(0, 0, 0, 0.116);
+/*     box-sizing: border-box; */
+    position: fixed;
+    top: 0;
 }
 
 .nav-container{
@@ -19,7 +22,7 @@ nav{
     justify-content: flex-end;
 }
 
-.nav-lista{
+.nav-list{
     display: flex;
     font-size: 18px;
     list-style: none;
@@ -28,7 +31,7 @@ nav{
 .nav-links{
     color: #2e2e31;
     display: flex;
-    font-weight: 400;
+    font-weight: 300;
     text-decoration: none;
     padding: 10px 20px;
 }
@@ -37,18 +40,23 @@ nav{
     color: #005C7A;
 }
 
-/* .nav-links:active{
+.nav-links:active{
+    box-sizing: border-box;
     border: 1px solid #005C7A;
     border-radius: 30px;
-}  */
+} 
 
-.nav-contacto{
+.nav-proyects{
+    margin-right: 15px;
+}
+
+.nav-contact{
     color: #ffff;
     background-color: #005C7A;
     border-radius: 30px;
 }
 
-.nav-contacto:hover{
+.nav-contact:hover{
     color: #ffff;
 }
 
