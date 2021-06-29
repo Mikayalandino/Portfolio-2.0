@@ -425,3 +425,51 @@ blockquote{
 }
 
 /* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #005b7a;
+}
+
+.footer-nav{
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.footer-links{
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-icons{
+    box-sizing: border-box; /* arreglar, no funciona ! */
+}
+
+.icon-footer{
+    background-color: #ffff;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.icon-footer:hover{
+    color: #ffff;
+    background-color: #005b7a;
+    border: 1px solid #ffff;
+}
+
+.footer-txt{
+    color: #ffff;
+}
+
+.footer-txt-link{
+    color: rgba(0, 0, 0, 0.918);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-txt-link:hover{
+    color: #ffff;
+}
