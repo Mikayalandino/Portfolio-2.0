@@ -565,11 +565,20 @@ footer{
 
     /* contacto */
 
+    .contact{
+        max-width: 700px;
+        display: flex;
+        background-color: #fff;
+        margin: 30px;
+    }
+
     .contact-container{
         display: flex;
         flex-direction: column;
         border: none;
         background-color: #FFFFFF;
+        margin: 0;
+        padding: 0;
     }
 
                            /* contact-left */
@@ -591,9 +600,24 @@ footer{
 
                                /* contact-right */
     
+    .name{
+        width: 300px;
+    }
+
+    .surname{
+        width: 300px;
+    }
 
     .contact-mail{
-        width: 420px;
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .contact-button{
+        margin-bottom: 50px;
     }
 }
 
