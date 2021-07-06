@@ -342,6 +342,11 @@ blockquote{
     padding-right: 50px;
 }
 
+.box-links{
+    display: flex;
+    flex-direction: column;
+}
+
 .contact-link{
     text-decoration: none;
     outline: none;
@@ -525,9 +530,13 @@ footer{
 
 @media screen and (max-width: 1100px){
 
+    /* nav */
+
     nav{
         display: none;
     }
+
+    /* header */
 
     .header-container{
         display: flex;
@@ -536,5 +545,47 @@ footer{
 
     .container-right-img{
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    /* contacto */
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+                           /* contact-left */
+    .contact-left{
+        display: flex;
+    }
+
+    .container-links{
+        display: flex;
+    }
+
+    .contact-link{
+        margin-right: 50px;
+    }
+
+    .twitter{
+        margin-right: 165px;
+    }
+
+                               /* contact-right */
+    
+    .name{
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .surname{
+        width: 100%;
+    }
+
+    .contact-mail{
+        width: 100%;
     }
 }
