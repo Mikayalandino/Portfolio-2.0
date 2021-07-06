@@ -668,4 +668,20 @@ footer{
     width: 100%;
    }
 
+   .proyects-img{
+    width: 60%;
+   }
+
+   .proyects-txt-card{
+    font-size: 16px;
+    margin: 0px;
+   }
+
+   /* contacto */
+   
+   .contact-container{
+    max-width: 590px;
+    padding: 0px;
+    margin-left: 50px;
+   }
 }
