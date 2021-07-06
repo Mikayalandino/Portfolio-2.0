@@ -712,4 +712,39 @@ footer{
         display: flex;
         flex-direction: column;
     }
-} 
+                                                    /* contact-right */ 
+
+    .contact-right{
+        margin-left: 45px;
+    }
+
+    input{
+        width: 60%;
+    }
+
+    .contact-mail{
+        width: 80%;
+    }
+
+    textarea{
+        width: 80%;
+    }
+
+                                                     /* contact-right */
+
+    .contact-right{
+        margin-left: 45px;
+    }
+
+    input{
+        width: 60%;
+    }
+
+    .contact-mail{
+        width: 80%;
+    }
+
+    textarea{
+        width: 80%;
+    }
+}
