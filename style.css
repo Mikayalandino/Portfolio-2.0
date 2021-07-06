@@ -625,6 +625,39 @@ footer{
 
 @media screen and (max-width: 700px){
 
+    /* quotes */
+
+    blockquote{
+        font-size: 20px;
+    }
+
+    /* proyectos */
+
+   .proyects-txt{
+    font-size: 16px;
+   }
+
+   .proyects-container {
+    margin-bottom: 0;
+    }
+
+   .proyects-cards{
+    width: 100%;
+   }
+
+   .proyects-img{
+    width: 50%;
+   }
+
+   .proyects-txt-card{
+    font-size: 16px;
+    margin: 0px;
+   }
+
+   .memes{
+      padding: 0; 
+   }
+
     /* contact */
 
                                /* contact-left */
@@ -654,30 +687,27 @@ footer{
     }
 }
 
-@media screen and (max-width: 550px){
-    
-    /* proyectos */
+@media screen and (max-width: 599px){
 
-   .proyects-txt{
-    font-size: 16px;
-   }
+    /* conocimientos */
 
-   .proyects-container {
-    margin-bottom: 0;
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-   .proyects-cards{
-    width: 100%;
-   }
+}
 
-   .proyects-img{
-    width: 60%;
-   }
+@media screen and (max-width: 550px){
 
-   .proyects-txt-card{
-    font-size: 16px;
-    margin: 0px;
-   }
+    /* quotes */
+
+    blockquote{
+        font-size: 16px;
+    }
+    
 
    /* contacto */
 
@@ -690,20 +720,29 @@ footer{
 
 @media screen and (max-width: 500px){
 
+    /* quotes */
+
+    blockquote{
+        font-size: 13px;
+    }
+
     /* contacto */
+
+    .contact{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
 
     .contact-container{
         max-width: 430px;
         padding: 0px;
-        margin: 150px;
+        margin-left: 0px;
     }
 
                                                  /* contact-left */       
-
-    .contact-left{
-        margin-left: 45px;
-    }
-
+    
     .contact-left-txt{
         font-size: 15px;
     }
@@ -714,12 +753,12 @@ footer{
     }
                                                     /* contact-right */ 
 
-    .contact-right{
-        margin-left: 45px;
+    .name{
+        width: 65%;
     }
 
-    input{
-        width: 60%;
+    .surname{
+        width: 65%;
     }
 
     .contact-mail{
@@ -731,10 +770,6 @@ footer{
     }
 
                                                      /* contact-right */
-
-    .contact-right{
-        margin-left: 45px;
-    }
 
     input{
         width: 60%;
