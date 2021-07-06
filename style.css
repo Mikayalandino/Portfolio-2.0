@@ -687,3 +687,29 @@ footer{
     margin-left: 50px;
    }
 }
+
+@media screen and (max-width: 500px){
+
+    /* contacto */
+
+    .contact-container{
+        max-width: 430px;
+        padding: 0px;
+        margin: 150px;
+    }
+
+                                                 /* contact-left */       
+
+    .contact-left{
+        margin-left: 45px;
+    }
+
+    .contact-left-txt{
+        font-size: 15px;
+    }
+
+    .container-links{
+        display: flex;
+        flex-direction: column;
+    }
+} 
