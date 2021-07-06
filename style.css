@@ -165,16 +165,20 @@ div > p{
 }
 
 .skills-cards-box{
-    height: 230px;
     width: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
-    margin: 25px;
+    margin: 10px;
+    padding: 20px 20px
+} 
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 1100px;
 }
 
 .skills-cards-box:hover{
@@ -278,6 +282,7 @@ blockquote{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .proyects-cards{
@@ -386,6 +391,10 @@ blockquote{
 
 .contact-na{
     display: flex;
+}
+
+input{
+    width: 190px;
 }
 
 .contact-box{
@@ -538,6 +547,10 @@ footer{
 
     /* header */
 
+    header{
+        margin-top: 50px;
+    }
+
     .header-container{
         display: flex;
         flex-direction: column;
@@ -555,6 +568,8 @@ footer{
     .contact-container{
         display: flex;
         flex-direction: column;
+        border: none;
+        background-color: #FFFFFF;
     }
 
                            /* contact-left */
@@ -576,16 +591,27 @@ footer{
 
                                /* contact-right */
     
-    .name{
-        width: 100%;
-        margin-right: 50px;
-    }
-
-    .surname{
-        width: 100%;
-    }
 
     .contact-mail{
-        width: 100%;
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    /* contact */
+
+    .contact-link{
+        margin-right: 0px;
+    }
+
+    /* footer */
+
+    .footer-icons{
+        margin-top: 50px;
+    }
+
+    .footer-nav{
+        display: none;
     }
 }
