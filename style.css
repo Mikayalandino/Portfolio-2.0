@@ -651,3 +651,21 @@ footer{
         display: none;
     }
 }
+
+@media screen and (max-width: 550px){
+    
+    /* proyectos */
+
+   .proyects-txt{
+    font-size: 16px;
+   }
+
+   .proyects-container {
+    margin-bottom: 0;
+    }
+
+   .proyects-cards{
+    width: 100%;
+   }
+
+}
