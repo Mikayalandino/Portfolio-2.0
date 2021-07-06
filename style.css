@@ -34,6 +34,7 @@ nav{
     font-weight: 300;
     text-decoration: none;
     padding: 10px 20px;
+    margin-right: 30px;
 }
 
  .nav-links:hover{
@@ -53,13 +54,14 @@ nav{
 }
 
 .nav-proyects{
-    margin-right: 15px;
+    margin-right: 50px;
 }
 
 .nav-button{
     color: #ffff;
     background-color: #005C7A;
     border-radius: 30px;
+    margin-right: 50px;
 }
 
 .nav-button:hover{
@@ -471,7 +473,6 @@ footer{
     outline: none;
 }
 
-
 .footer-links:active{
     border-radius: 30px;
     box-shadow: 0px 0px 8px 0px #ffff;
@@ -482,15 +483,18 @@ footer{
     border-radius: 30px;
 }
 
-.footer-icons{
-    margin: 15px;
-    outline: none;
+.ul{
+    display: flex;
 }
 
-.a{
-    box-sizing: border-box;
-    margin: 5px;
+.li{
+    list-style: none;
+    margin: 0;
+}
+
+.footer-icons{
     text-decoration: none;
+    margin: 20px;
 }
 
 .icon-footer{
@@ -506,12 +510,10 @@ footer{
 
 .icon-footer:focus{
     box-shadow: 0px 0px 8px 0px #ffff;
-    border-radius: 30px;
 }
 
 .icon-footer:active{
     box-shadow: 0px 0px 8px 0px #ffff;
-    border-radius: 30px;
 }
 
 .footer-txt{
@@ -678,7 +680,7 @@ footer{
    }
 
    /* contacto */
-   
+
    .contact-container{
     max-width: 590px;
     padding: 0px;
