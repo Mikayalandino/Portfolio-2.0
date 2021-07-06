@@ -8,13 +8,14 @@ body{
 
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #ffff;
     width: 100%;
     box-shadow: 1px 0px 28px 3px rgba(0, 0, 0, 0.116);
     box-sizing: border-box; /* arreglar, no funciona ! */
     position: fixed;
     top: 0;
+    padding-right: 50px;
 }
 
 .nav-container{
@@ -77,13 +78,13 @@ nav{
 header{
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 .header-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 220px;
 }
 
 div > h2{
@@ -130,7 +131,7 @@ div > p{
 }
 
 .container-right-img{
-    width: 50%;
+    max-width: 500px;
 }
 
 /* conocimientos */
@@ -139,12 +140,15 @@ div > p{
     display: flex;
     justify-content: center;
     background-color: #F6F7FB;
+    margin-top: 200px;
+    padding-top: 100px;
 }
 
 .skills-container{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .skills-title{
@@ -227,12 +231,12 @@ div > p{
 
 .fa-quote-right {
     color: #ffff;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 blockquote{
     color: #ffff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
 }
 
@@ -263,6 +267,7 @@ blockquote{
     color: #000;
     font-size: 50px;
     font-weight: 900;
+    margin-top: 100px;
 }
 
 .proyects-txt{
@@ -273,12 +278,11 @@ blockquote{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px;
 }
 
 .proyects-cards{
-    height: 370px;
-    width: 350px;
+    height: 320px;
+    width: 300px;
     text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
@@ -314,6 +318,7 @@ blockquote{
 .contact{
     display: flex;
     justify-content: center;
+    background-color: #F6F7FB;
 }
 
 .contact-container{
@@ -397,6 +402,10 @@ blockquote{
 
 .name{
     margin-right: 10px;
+}
+
+.contact-mail{
+    width: 92%;
 }
 
 .contact-button{
@@ -510,4 +519,22 @@ footer{
 .footer-txt-link:focus{
     box-shadow: 0px 0px 8px 0px #ffff;
     border-radius: 30px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1100px){
+
+    nav{
+        display: none;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-right-img{
+        margin-top: 20px;
+    }
 }
