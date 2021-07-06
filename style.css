@@ -601,19 +601,19 @@ footer{
                                /* contact-right */
     
     .name{
-        width: 300px;
+        width: 230px;
     }
 
     .surname{
-        width: 300px;
+        width: 230px;
     }
 
     .contact-mail{
-        width: 100%;
+        width: 90%;
     }
 
     textarea{
-        width: 100%;
+        width: 90%;
     }
 
     .contact-button{
@@ -625,8 +625,20 @@ footer{
 
     /* contact */
 
+                               /* contact-left */
+
     .contact-link{
         margin-right: 0px;
+    }
+
+                               /* contact-right */
+    
+    .name{
+        width: 185px;
+    }
+                        
+    .surname{
+        width: 185px;
     }
 
     /* footer */
