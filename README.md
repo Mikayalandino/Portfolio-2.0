@@ -1,3 +1,84 @@
+<h1 align="center"> ✨ Proyecto: Portfolio ✨</h1>
+
+&nbsp;
+
+
+<p align="center"><img src="https://cdn.dribbble.com/users/2789762/screenshots/8630894/media/583b209224b027954cb6e8b9901cb731.gif" width="400px"></p>
+&nbsp;
+
+#
+
+&nbsp;
+
+<p >🌸 Acá podrán ver mi portfolio!</p>
+<p >❤️ Donde están todos mis conocimientos, mis próximos proyectos, links para contactarme y mucho amor puesto en él.</p>
+
+<p>:shipit: Estudio Frontend desde el año pasado (2020).</p>
+<p>:octocat: Volví a codear con toda, y no pienso parar hasta saber mucho más!</p>
+
+ 
+&nbsp;
+
+
+
+``` 
+                                                    📌 Contenido
+```
+  
+  
+&nbsp;
+
+
+
+
+- [x] Header con links de navegación.
+- [x] Sección de presentación.
+- [x] Sección de habilidades.
+- [x] Cita.
+- [x] Sección de proyectos con grilla de proyectos.
+- [x] Sección y formulario de contacto.
+- [x] Footer con links de navegación y links de contacto.
+- [x] Al clickear en los links de navegación, debe llevar a la sección correspondiente.
+- [x] Al clickear en los links de contacto, debe llevar a la página externa correspondiente.
+- [x] El portfolio debe tener un diseño responsivo y verse correctamente en distintos dispositivos (especialmente mobile).
+- [x] El portfolio debe estar deployado y ser accesible desde una URL.
+- [x] El repositorio en GitHub debe tener un readme adecuado.
+
+
+ 
+&nbsp;
+
+
+
+
+
+<p align="">⚡ Link al proyecto: <a href="https://mikayalandino.github.io/Portfolio-2.0" target="_blank">Portfolio</a></p>
+
+
+
+&nbsp;
+
+
+
+
+
+``` 
+                                                        🐱‍🏍 ✔️
+```
+ 
+&nbsp;
+
+
+<img align='left' src='https://media0.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif?cid=790b761151ba5a2875e67f464f448d7979c3e2e4a03c21dd&rid=giphy.gif&ct=g' width='100'>
+<h1>Tecnologías:</h1> 
+  
+
+
+
+&nbsp;
+
+
+<p align="center">
 <a href="https://www.w3schools.com/html/" target="_blank"> 
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="70" height="70"/> 
 </a> 
@@ -76,11 +157,6 @@
 
 |   [VSCode](https://code.visualstudio.com/)	|   [Git](https://git-scm.com/)	|   [Google Fonts](https://fonts.google.com/)	|  [Font Awesome](https://fontawesome.com/) 	|  [unDraw](https://undraw.co/illustrations) |  [Collected Notes](https://collectednotes.com/)	
 |---	|---	|---	|---	|---	|---	|
-
-
-
-
-&nbsp;
 
 
 
