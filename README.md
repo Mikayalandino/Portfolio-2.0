@@ -10,8 +10,8 @@
 
 &nbsp;
 
-<p >🌸 Acá podrán ver mi portfolio!</p>
-<p >❤️ Donde están todos mis conocimientos, mis próximos proyectos, links para contactarme y mucho amor puesto en él.</p>
+<p >🌸Acá podrán ver mi portfolio!</p>
+<p >❤️Donde están todos mis conocimientos, mis próximos proyectos, links para contactarme y mucho amor puesto en él.</p>
 
 <p>:shipit: Estudio Frontend desde el año pasado (2020).</p>
 <p>:octocat: Volví a codear con toda, y no pienso parar hasta saber mucho más!</p>
