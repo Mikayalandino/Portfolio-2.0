@@ -560,6 +560,17 @@ footer{
     .header-container{
         display: flex;
         flex-direction: column;
+        margin-top: 0;
+    }
+
+    .header-title-txt{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-button{
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
     .container-right-img{
@@ -727,7 +738,7 @@ footer{
     /* quotes */
 
     blockquote{
-        font-size: 13px;
+        font-size: 22px;
     }
 
     /* contacto */
@@ -785,5 +796,143 @@ footer{
 
     textarea{
         width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    /* header */
+
+    .header-container{
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 0;
+    }
+
+    .header-container-left{
+        margin-left: 20px;
+    }
+
+    container-right-img {
+        display: flex;
+        width: 80%;    
+        margin-left: 20px;
+
+    }
+
+    /* conocimientos */
+    
+    .skills{
+        margin-top: 0;
+    }
+
+    .skills-title {
+        font-size: 45px;
+    }
+
+    .skills-comment {
+        font-size: 18px;
+    }
+
+    .skills-cards-box {
+        width: 80%;
+    }
+
+    /* proyectos */
+
+    .proyects-txt {
+        font-size: 15px;
+    }
+
+    .proyects-cards{
+        margin-left: 30px;
+        margin-right: 18px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+
+    /* contacto */
+
+    .contact-left{
+        margin-left: 30px;
+    }
+
+    .contact-right{
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+
+    /* header */
+
+    .container-right-img{
+        width: 100%;
+    }
+
+    /* conocimientos */
+
+    .skills-title{
+        font-size: 35px;
+    }
+
+    .skills-comment{
+        font-size: 16px;
+    }
+
+    /* proyectos */
+
+    .proyects-title{
+        font-size: 45px;
+    }
+
+    /* footer */
+
+    .footer-icons{
+        margin: 5;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    /* header */
+
+    .header-txt{
+        font-size: 15px;
+    }
+
+    .container-right-img{
+        width: 100%;
+    }
+
+    /* conocimientos */
+
+    .skills-title{
+        font-size: 35px;
+    }
+
+    .skills-comment{
+        font-size: 16px;
+    }
+
+    /* proyectos */
+
+    .proyects-title{
+        font-size: 45px;
+    }
+
+    .proyects-cards{ 
+        margin-left: 10px;
+
+    }
+
+    /* footer */
+
+    .footer-icons{
+        margin: 5;
+        margin-left: 10px;
     }
 }
