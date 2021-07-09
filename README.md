@@ -2,23 +2,25 @@
 
 &nbsp;
 
-
 <p align="center"><img src="https://cdn.dribbble.com/users/2789762/screenshots/8630894/media/583b209224b027954cb6e8b9901cb731.gif" width="400px"></p>
 &nbsp;
 
 #
 
 &nbsp;
+<p align="left"><img src="https://pngimg.com/uploads/sakura/sakura_PNG36.png" width="200px"></p>
 
-<p >🌸 Acá podrán ver mi portfolio!</p>
-<p >❤️ Donde están todos mis conocimientos, mis próximos proyectos, links para contactarme y mucho amor puesto en él.</p>
+&nbsp;
+
+<p >🌸Acá podrán ver mi portfolio!</p>
+<p >❤️Donde están todos mis conocimientos, mis próximos proyectos, links para contactarme y mucho amor puesto en él.</p>
 
 <p>:shipit: Estudio Frontend desde el año pasado (2020).</p>
 <p>:octocat: Volví a codear con toda, y no pienso parar hasta saber mucho más!</p>
 
- 
 &nbsp;
 
+<p align="right"><img src="https://pa1.narvii.com/6549/209dbe548927781eb87320cf990ffcbdaef33426_hq.gif" width="200px"></p>
 
 
 ``` 
