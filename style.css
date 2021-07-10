@@ -557,8 +557,10 @@ footer{
     }
 
     .header-container{
+        height: 700px;
         display: flex;
         flex-direction: column;
+        margin-bottom: 120px;
     }
 
     .header-title-txt{
@@ -927,6 +929,10 @@ footer{
         margin-left: 0;
     }
 
+    .header-container-left{
+        margin-left: 5px;
+    }
+
     .header-mika{
         font-size: 28px;
     }
@@ -984,6 +990,12 @@ footer{
 }
 
 @media screen and (max-width: 320px){
+
+    /* header */
+
+    .header-container-left{
+        margin-left: 12px;
+    }
 
     /* conocimientos */
 
