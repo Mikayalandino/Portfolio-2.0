@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    /* innecesario, el body no tiene padding */
     padding: 0;
 }
 
@@ -18,6 +19,8 @@ nav{
     padding-right: 50px;
 }
 
+/* innecesario, ya que solo tiene un elemento 
+de hecho podriamos eliminar el div del html sin consecuencias */
 .nav-container{
     display: flex;
 }
@@ -30,6 +33,7 @@ nav{
 
 .nav-links{
     color: #2e2e31;
+    /* innecesario el flex aqui */
     display: flex;
     font-weight: 300;
     text-decoration: none;
@@ -78,6 +82,7 @@ nav{
 /* header */
 
 header{
+    /* innecesario este estilado */
     display: flex;
     justify-content: center;
 }
@@ -90,6 +95,9 @@ header{
     height: 750px;
 }
 
+/* el 99% de las veces tus h2, h1, p van a estar adentro de un div
+asi que agregar este selector es casi lo mismo que escribir 
+simplemente h2, h1, p */
 div > h2{
     color: #2E2E31;
     font-weight: 900;
