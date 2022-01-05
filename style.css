@@ -298,6 +298,14 @@ blockquote{
     outline: none;
 }
 
+.margin-card {
+    margin-top: 60px;
+}
+
+.margin-none {
+    margin-top: 0;
+}
+
 .proyects-cards:hover{
     background-color: #005b7ac2;
 }
