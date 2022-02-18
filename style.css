@@ -26,6 +26,7 @@ nav{
     display: flex;
     font-size: 18px;
     list-style: none;
+    text-decoration: none;
 }
 
 .nav-links{
