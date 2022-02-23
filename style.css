@@ -507,6 +507,7 @@ footer{
 .footer-icons{
     text-decoration: none;
     margin: 20px;
+    margin-left: 0px;
 }
 
 .icon-footer{
